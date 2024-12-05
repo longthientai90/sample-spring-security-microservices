@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="caller" />
+        <module name="secure-caller-bundle" />
+        <module name="secure-caller" />
+        <module name="callme-saml" />
+        <module name="secure-callme" />
+        <module name="secure-callme-bundle" />
+        <module name="gateway" />
+        <module name="callme" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="caller" options="-parameters" />
+      <module name="callme" options="-parameters" />
+      <module name="callme-saml" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="secure-caller" options="-parameters" />
+      <module name="secure-caller-bundle" options="-parameters" />
+      <module name="secure-callme" options="-parameters" />
+      <module name="secure-callme-bundle" options="-parameters" />
+    </option>
+  </component>
+</project>
